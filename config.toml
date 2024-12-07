@@ -1,0 +1,33 @@
+[app]
+  #app 名称
+  name = "FG-DEV内网"
+  #app url
+  url  = "http://localhost"
+
+  addr = ":8080"
+  #单元测试调试信息
+  debug = false
+
+  [app.logger]
+    level = "INFO"
+    name = "application"
+
+#数据库驱动
+[database]
+    driver = "mysql"
+
+[mysql]
+   db ="fg-admin"
+   username ="root"
+   password ="123456"
+
+
+[test]
+    #测试登陆用户名
+    LoginUserName = "ding"
+    #测试用户名
+    LoginName = "ding"
+    #测试用户密码
+    LoginPwd = "123456"
+    #测试数据库驱动
+    DataBaseDriver = "mysql"
